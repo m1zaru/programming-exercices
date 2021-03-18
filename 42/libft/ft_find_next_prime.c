@@ -24,14 +24,6 @@ int ft_is_prime(int nb)
 
 }
 
-/*note pour trouver le prochain nombre premier
-pour i au dessus de nb
-	teste si nb+i est premier
-	si nb+i est premier
-		retourne nb+i
-	sinon
-		continue les tests
-*/
 
 int ft_find_next_prime(int nb)
 {
